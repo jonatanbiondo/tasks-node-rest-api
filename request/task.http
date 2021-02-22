@@ -1,0 +1,34 @@
+###
+GET http://localhost:3000/api/task?size=30&title=titula11aao
+
+
+
+###
+GET http://localhost:3000/api/task/done
+
+###
+POST http://localhost:3000/api/task
+Content-Type: application/json
+
+
+
+{
+    "done": 1,
+    "title":"Titulo2",
+    "description" : "una descripcion1"
+}
+
+###
+PUT http://localhost:3000/api/task/602cae002d5067960cb0fe26
+Content-Type: application/json
+
+
+
+{
+    "done": true,
+    "title":"Titulo2",
+    "description" : "una descripcion1"
+}
+
+###
+GET http://localhost:3000/api/task/602cae002d5067960cb0fe26
