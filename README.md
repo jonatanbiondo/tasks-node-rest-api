@@ -1,4 +1,4 @@
-# Challenge AIVO
+# Task REST API
 ## Description
 Build a small REST API as an exercise, to learn how to code an API using JavaScript, Node, Express.js, and MongoDB 
 
